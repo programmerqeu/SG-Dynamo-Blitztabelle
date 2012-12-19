@@ -3,7 +3,7 @@
  *
  * LICENSE:    MIT
  *
- * @projekt			DGD
+ * @projekt		 SGD
  * @package    Blitztabelle
  * @author     André Lademann <andre.lademann@programmerq.eu>
  * @copyright  Copyright (c) 2012 programmrq.eu (http://www.programmerq.eu)

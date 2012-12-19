@@ -1,0 +1,21 @@
+/**
+ * SG Dynamo Blitztabelle
+ *
+ * LICENSE:    MIT
+ *
+ * @projekt		 SGD
+ * @package    Blitztabelle
+ * @author     André Lademann <andre.lademann@programmerq.eu>
+ * @copyright  Copyright (c) 2012 programmrq.eu (http://www.programmerq.eu)
+ * @license    http://programmerq.eu/license
+ * @link
+ * Dateiname:  popup.css
+ * @since      2012-12-19 - 9:51:21 PM
+*/
+
+/* 1. basics */
+iframe {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
