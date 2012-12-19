@@ -1,11 +1,28 @@
 {
-  "manifest_version": 2,
-  "name": "SGD Blitztabelle",
-  "version": "1.0",
-  "description": "SG Dynamo Dresden - Blitztabelle",
-  "browser_action": {
-    "default_icon": "19.png",
-    "default_title": "SGD Blitztabelle",
-    "default_popup": "popup.html"
-  }
+	"manifest_version": 2,
+	"name": "__MSG_extName__",
+	"homepage_url": "http://www.dynamo-dresden.de/app/blitztabelle.html",
+	"version": "1.0.0",
+	"minimum_chrome_version": "20",
+	"description": "__MSG_extDescription__",
+	"default_locale": "de",
+	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+	"icons": {
+		"16": "16.png",
+		"48": "48.png",
+		"128": "128.png"
+	},
+	"permissions": [
+	"http://www.dynamo-dresden.de/"
+	],
+	"browser_action": {
+		"default_icon": {
+			"19": "19.png",
+			"38": "38.png",
+			"128": "128.png"
+		},
+		"default_icon": "19.png",
+		"default_title": "__MSG_extName__",
+		"default_popup": "popup.html"
+	}
 }
