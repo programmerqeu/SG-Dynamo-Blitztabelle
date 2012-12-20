@@ -16,7 +16,8 @@ var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-9020018-8']);
 _gaq.push(['_anonymizeIp']);
 _gaq.push(['_trackPageview']);
-
+_gaq.push(['_trackEvent', 'Open', 'Ticker','Die App wurde geöffnet']);
+_gaq.push(['_trackPageLoadTime']);
 (function() {
   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
   ga.src = 'https://ssl.google-analytics.com/ga.js';
