@@ -13,7 +13,7 @@
 		"128": "img/icon/128.png"
 	},
 	"permissions": [
-	"http://www.dynamo-dresden.de/"
+	"http://*.dynamo-dresden.de/"
 	],
 	"browser_action": {
 		"default_icon": "img/icon/19.png",

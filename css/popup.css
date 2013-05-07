@@ -19,3 +19,7 @@ iframe {
 	padding: 0;
 	border: none;
 }
+
+iframe > html > body {
+	color: red !important;
+}
