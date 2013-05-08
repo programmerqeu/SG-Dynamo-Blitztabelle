@@ -10,14 +10,24 @@
  * @license    http://programmerq.eu/license
  * @since      2012-12-18 - 11:53:21 PM
  */
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-9020018-8']);
-_gaq.push(['_anonymizeIp']);
-_gaq.push(['_trackPageview']);
-_gaq.push(['_trackEvent', 'Open', 'Ticker','Die Extension wurde geöffnet']);
-_gaq.push(['_trackPageLoadTime']);
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = 'https://ssl.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
+
+document.addEventListener('DOMContentLoaded', function() {
+
+	/*
+	 * Content
+	 *
+	 */
+	
+	var html;
+	var main = document.getElementById('main');
+
+	if (navigator.onLine) {
+		// Online
+		html = '<iframe src="http://www.dynamo-dresden.de/app/blitztabelle.html" id="blitztabelle" width="380" height="575" scrolling="no" frameborder="0">';
+	} else {
+		// Offline
+		html =  '<img src="img/offline.png" alt="'+chrome.i18n.getMessage('offline')+'" title="'+chrome.i18n.getMessage('offline')+'" >';
+	}
+	main.innerHTML = html;
+
+});

@@ -1,10 +1,11 @@
 {
-  "extName": {
-    "message": "SG Dynamo Dresden - Blitztabelle",
-    "description": "Der Titel der Extension."
-  },
-  "extDescription": {
-    "message": "Immer wissen, wo Dynamo steht! Die DynamoTabelle-App zeigt dir immer auf einen Blick, an welcher Tabellenposition deine Mannschaft aktuell steht. So kannst du live mitverfolgen, welche Auswirkungen die Spielbegegnungen der anderen Mannschaften auf die Platzierung der SG Dynamo Dresden e. V. haben.",
-    "description": "Die Beschreibung der Extension."
-  }
+	"extName": {
+		"message": "SG Dynamo Dresden - Blitztabelle",
+		"description": "Der Titel der Extension."
+	},
+	"extDescription": {
+		"message": "Immer wissen, wo Dynamo steht! Die DynamoTabelle-App zeigt dir immer auf einen Blick, an welcher Tabellenposition deine Mannschaft aktuell steht. So kannst du live mitverfolgen, welche Auswirkungen die Spielbegegnungen der anderen Mannschaften auf die Platzierung der SG Dynamo Dresden e. V. haben.",
+		"description": "Die Beschreibung der Extension."
+	},
+	"offline": {	"message":			"Du musst mit dem Internet verbunden sein um diese Extension nutzen zu können."}
 }

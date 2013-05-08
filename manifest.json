@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "__MSG_extName__",
 	"homepage_url": "http://www.dynamo-dresden.de/app/blitztabelle.html",
-	"version": "1.0.4",
+	"version": "1.0.6",
 	"minimum_chrome_version": "20",
 	"description": "__MSG_extDescription__",
 	"default_locale": "de",
